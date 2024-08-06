@@ -1,0 +1,88 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+	"formatter": {
+		"enabled": true,
+		"formatWithErrors": false,
+		"indentStyle": "tab",
+		"indentWidth": 4,
+		"lineEnding": "lf",
+		"lineWidth": 110,
+		"attributePosition": "auto",
+		"ignore": [
+			"**/cache",
+			"**/caches",
+			"**/log",
+			"**/logs",
+			"**/tmp",
+			"**/temp",
+			"**/backup",
+			"**/backups",
+			"**/dump",
+			"**/dumps",
+			"**/.git",
+			"**/.svn",
+			"**/.hg",
+			"**/.cache",
+			"**/.next",
+			"**/*.md",
+			"**/node_modules",
+			"**/var",
+			"**/vendor",
+			"**/public",
+			"**/dist",
+			"**/build",
+			"**/.contentlayer",
+			"**/package.json",
+			"**/package-lock.json",
+			"**/.yarn",
+			"**/yarn.lock",
+			"**/.yarn-integrity",
+			"**/.pnp.*",
+			"**/bun.lockb",
+			"**/*.min.css",
+			"**/*.min.js"
+		]
+	},
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true
+		},
+		"ignore": [
+			"dist/*",
+			"**/.cache",
+			"**/public",
+			"**/node_modules",
+			"**/*.esm.js"
+		]
+	},
+	"javascript": {
+		"formatter": {
+			"jsxQuoteStyle": "single",
+			"quoteProperties": "asNeeded",
+			"trailingCommas": "es5",
+			"semicolons": "always",
+			"arrowParentheses": "asNeeded",
+			"bracketSpacing": true,
+			"bracketSameLine": false,
+			"quoteStyle": "single",
+			"attributePosition": "auto"
+		}
+	},
+	"overrides": [
+		{
+			"include": [
+				"*.ts",
+				"*.tsx"
+			]
+		}
+	],
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"useIgnoreFile": true
+	}
+}
