@@ -31,29 +31,20 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
-    "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
+    "@nx/next": "19.5.6",
     "@types/bun": "^1.1.6",
     "@types/node": "^22.1.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "@typescript-eslint/parser": "^8.0.1",
     "autoprefixer": "^10.4.20",
-    "eslint": "^9.8.0",
-    "eslint-config-next": "^14.2.5",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-react": "^7.35.0",
-    "eslint-plugin-tailwindcss": "^3.17.4",
     "postcss": "^8.4.41",
     "postcss-import": "^16.1.0",
-    "prettier": "^3.3.3",
-    "prettier-plugin-tailwindcss": "^0.6.5",
     "tailwindcss": "^3.4.7",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "nx": "19.5.6"
   },
   "engines": {
     "node": ">=18"
   },
-  "nx": {
-    "targets": {}
-  }
+  "nx": {}
 }

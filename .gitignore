@@ -38,3 +38,6 @@ next-env.d.ts
 
 
 .nx/cache
+
+
+.nx/workspace-data
